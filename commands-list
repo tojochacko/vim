@@ -1,0 +1,38 @@
+in visual mode use the 'o' operator to cycle the cursor to increase ur selection
+
+Use 'M' to toggle to the middle of the screen
+
+Use fx or Fx to find the character and then use ';' to continue the search
+
+vip - will select para
+vit - will select tag
+vis - will select sentence
+viw - will select word
+vi] - will select everything between []
+vi) - will select everything between ()
+vib - will also select everything between ()
+
+`` or '' - will position the cursor before the last jump
+`. or '. - will take you to the last edit location
+`0 - The location of the cursor when you last exited vim
+marks - will list all the marks in the file.
+delm a - will delete mark a
+
+* - search current word within the file.
+# - search backward.
+g* - search part of the current word
+g# - search backwards
+
+[%,l,$,`a,+5,-3,.]s/s/r/[g,c,i,I,n,p,10] - g for global, c for confirm, i not case sensitive, I for case sensitive, n for show num of lines, p for print, 10 is the range, next 10 lines
+|
+% - All lines in a buffer
+l - first line of the the buffer
+$ - last line of the buffer
+`a - on line which is marked a
++5 - 5 lines down
+-3 - 3 lines up
+. - current line
+
+zz - Recenter your screen to the current line
+
+lcd - change directory local to a tab
