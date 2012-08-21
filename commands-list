@@ -4,6 +4,16 @@ Use 'M' to toggle to the middle of the screen
 
 Use fx or Fx to find the character and then use ';' to continue the search
 
+zz - Recenter your screen to the current line
+
+lcd - change directory local to a tab
+
+( - move to the start of a sentence
+) - move to the end of a sentence
+{ - move to the start of a paragraph
+} - move to the end of a paragraph
+
+
 vip - will select para
 vit - will select tag
 vis - will select sentence
@@ -18,10 +28,19 @@ vib - will also select everything between ()
 marks - will list all the marks in the file.
 delm a - will delete mark a
 
+
 * - search current word within the file.
 # - search backward.
 g* - search part of the current word
 g# - search backwards
+
+search can also be combined with operator commands :)
+
+for e.g: y/function - will yank everything from the current position uptil the function text
+
+d?; - will delete everything from current position to the previous occurence of ;
+
+v/test - will select everything from the current position to the next occurence of test.
 
 [%,l,$,`a,+5,-3,.]s/s/r/[g,c,i,I,n,p,10] - g for global, c for confirm, i not case sensitive, I for case sensitive, n for show num of lines, p for print, 10 is the range, next 10 lines
 |
@@ -33,6 +52,3 @@ $ - last line of the buffer
 -3 - 3 lines up
 . - current line
 
-zz - Recenter your screen to the current line
-
-lcd - change directory local to a tab
