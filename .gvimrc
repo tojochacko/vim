@@ -1,8 +1,8 @@
 let mapleader = ","
 " this setting is for solarized
-let g:solarized_contrast="high"    "default value is normal
+let g:solarized_contrast="low"    "default value is normal
 let g:solarized_visibility="high"    "default value is normal
-set background=dark
+set background=light
 " solarized setting finishes here.
 syntax enable
 colorscheme solarized
