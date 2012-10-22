@@ -5,7 +5,7 @@ let g:solarized_visibility="high"    "default value is normal
 set background=light
 " solarized setting finishes here.
 syntax enable
-colorscheme solarized
+colorscheme molokai
 set rtp+='~/.vim/plugin'
 set tabstop=4
 set shiftwidth=4
@@ -33,7 +33,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
 set modelines=0
 set ignorecase
 set smartcase
@@ -44,6 +43,7 @@ set hlsearch
 
 map T :TaskList<CR>
 :nnoremap <F5> :buffers<CR>:buffer<Space>
+let g:pep8_map='<F6>'
 
 "this will clear the search highlighting
 nnoremap <leader><space> :noh<cr>
