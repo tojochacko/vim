@@ -1,11 +1,11 @@
 let mapleader = ","
 " this setting is for solarized
-let g:solarized_contrast="low"    "default value is normal
-let g:solarized_visibility="high"    "default value is normal
-set background=light
+"let g:solarized_contrast="low"    "default value is normal
+"let g:solarized_visibility="high"    "default value is normal
+" set background=dark
 " solarized setting finishes here.
-syntax enable
-colorscheme molokai
+syntax on
+colorscheme tutticolori2
 set rtp+='~/.vim/plugin'
 set tabstop=4
 set shiftwidth=4
@@ -60,3 +60,5 @@ nnoremap <right> <nop>
 "inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
+
+set tags=./tags;/
