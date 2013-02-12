@@ -52,3 +52,31 @@ $ - last line of the buffer
 -3 - 3 lines up
 . - current line
 
+
+There are 26 named registers in vim, corresponding to the letters of the alphabet
+
+You can store your operations in a register by using a macro.
+
+qa - start recording your keystrokes in register 'a'
+q - will stop the recording.
+@a - will repeat the keystrokes recorded in the macro
+
+"ayy - Read current line into register 'a'
+"Ayy - Append the current line to register 'a' (Using capitals for register will no over write but append to the regsiter)
+"bP - Paste contents of register 'b' above current line
+"cc3w - Change three words, putting the previous three words into register 'c'
+
+Black hole register
+------------------------
+This is used when we don't want to overwrite the register we have when we just used 'dd' command
+"_ - Black hole register
+
+
+
+"0p - This will paste the recently yanked text
+"1p - This will paste the most recently deleted text
+"2p - This will reference the text deleted before that and upto "9
+
+
+
+
