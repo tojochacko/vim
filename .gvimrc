@@ -56,7 +56,10 @@ nnoremap <left> <nop>
 nnoremap <right> <nop>
 :nmap j gj
 :nmap k gk
-:nmap \l :setlocal number!<CR>
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
 :nmap <C-n> :bnext<CR>
 :nmap <C-p> :bprev<CR>
 :let g:ctrlp_map = '<Leader>t'
