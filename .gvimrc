@@ -1,4 +1,3 @@
-execute pathogen#infect()
 let mapleader = ","
 " this setting is for solarized
 "let g:solarized_contrast="low"    "default value is normal
@@ -6,7 +5,7 @@ let mapleader = ","
 " set background=dark
 " solarized setting finishes here.
 syntax on
-colorscheme tutticolori2
+colorscheme guardian
 set rtp+='~/.vim/plugin'
 set tabstop=4
 set shiftwidth=4
@@ -55,15 +54,20 @@ nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
-"inoremap <up> <nop>
-"inoremap <down> <nop>
-"inoremap <left> <nop>
-"inoremap <right> <nop>
 :nmap j gj
 :nmap k gk
 :nmap \l :setlocal number!<CR>
 :nmap <C-n> :bnext<CR>
 :nmap <C-p> :bprev<CR>
+:let g:ctrlp_map = '<Leader>t'
+:let g:ctrlp_match_window_bottom = 0
+:let g:ctrlp_match_window_reversed = 0
+:let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
+:let g:ctrlp_working_path_mode = 0
+:let g:ctrlp_dotfiles = 0
+:let g:ctrlp_switch_buffer = 0
 
+:nmap ; :CtrlPBuffer<CR>
+:nmap <leader>e :NERDTreeToggle<CR>
 
 set tags=./tags;/
