@@ -1,3 +1,4 @@
+execute pathogen#infect()
 let mapleader = ","
 " this setting is for solarized
 "let g:solarized_contrast="low"    "default value is normal
@@ -46,7 +47,7 @@ map T :TaskList<CR>
 let g:pep8_map='<F6>'
 
 "this will clear the search highlighting
-nnoremap <leader><space> :noh<cr>
+:nmap <leader><space> :nohlsearch<cr>
 
 " Naviagations using keys up/down/left/right
 " Disabling default keys to learn the hjkl
@@ -58,7 +59,11 @@ nnoremap <right> <nop>
 "inoremap <down> <nop>
 "inoremap <left> <nop>
 "inoremap <right> <nop>
-nnoremap j gj
-nnoremap k gk
+:nmap j gj
+:nmap k gk
+:nmap \l :setlocal number!<CR>
+:nmap <C-n> :bnext<CR>
+:nmap <C-p> :bprev<CR>
+
 
 set tags=./tags;/
