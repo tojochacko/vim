@@ -70,7 +70,8 @@ noremap <C-l> <C-w>l
 :let g:ctrlp_dotfiles = 0
 :let g:ctrlp_switch_buffer = 0
 
-:nmap ; :CtrlPBuffer<CR>
+:nmap <leader>b :CtrlPBuffer<CR>
+:nmap <leader>p :CtrlP<CR>
 :nmap <leader>e :NERDTreeToggle<CR>
 
 set tags=./tags;/
