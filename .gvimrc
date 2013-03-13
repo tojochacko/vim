@@ -5,7 +5,7 @@ let mapleader = ","
 " set background=dark
 " solarized setting finishes here.
 syntax on
-colorscheme guardian
+colorscheme tutticolori
 set rtp+='~/.vim/plugin'
 set tabstop=4
 set shiftwidth=4
@@ -32,7 +32,8 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber
+"set relativenumber
+set number
 set modelines=0
 set ignorecase
 set smartcase
