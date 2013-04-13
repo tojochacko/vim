@@ -42,6 +42,9 @@ d?; - will delete everything from current position to the previous occurence of 
 
 v/test - will select everything from the current position to the next occurence of test.
 
+c2/end - change all the text from the current cursor position upto the second occurence of end word.
+
+
 [%,l,$,`a,+5,-3,.]s/s/r/[g,c,i,I,n,p,10] - g for global, c for confirm, i not case sensitive, I for case sensitive, n for show num of lines, p for print, 10 is the range, next 10 lines
 |
 % - All lines in a buffer
@@ -65,6 +68,12 @@ q - will stop the recording.
 "Ayy - Append the current line to register 'a' (Using capitals for register will no over write but append to the regsiter)
 "bP - Paste contents of register 'b' above current line
 "cc3w - Change three words, putting the previous three words into register 'c'
+
+
+za - enable/disable folds
+zR - disable folds in the entire file
+
+ba - open all buffers in split windows
 
 Black hole register
 ------------------------
