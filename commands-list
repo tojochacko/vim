@@ -4,7 +4,9 @@ Use 'M' to toggle to the middle of the screen
 
 Use fx or Fx to find the character and then use ';' to continue the search
 
+zt - put the current line to the top of the screen
 zz - Recenter your screen to the current line
+zb - put the current line to the bottom of the screen
 
 lcd - change directory local to a tab
 
@@ -13,6 +15,20 @@ lcd - change directory local to a tab
 { - move to the start of a paragraph
 } - move to the end of a paragraph
 
+H - move your cursor near the top of the screen
+M - move your cursor to the middle of the screen
+L - move your cursor near the bottom of the screen
+
+-----Scrolling
+
+Ctrl + b - move 1 screen up
+Ctrl + f - move 1 screen down
+Ctrl + u - move 1/2 screen up
+Ctrl + d - move 1/2 screen down
+Ctrl + y - move 1 line up
+Ctrl + e - move 1 line down
+
+-----Scrolling end
 
 vip - will select para
 vit - will select tag
