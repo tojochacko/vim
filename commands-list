@@ -30,6 +30,15 @@ Ctrl + e - move 1 line down
 
 -----Scrolling end
 
+-----Indentation-----
+
+>> - indent inside according to the tabspace set
+<< - indent outside according to the tabspace set
+Ctrl + t - indent inside while in insert mode
+Ctrl + d - indent outside while in insert mode
+
+-----Indentation end-----
+
 vip - will select para
 vit - will select tag
 vis - will select sentence
