@@ -39,6 +39,13 @@ Ctrl + d - indent outside while in insert mode
 
 -----Indentation end-----
 
+-----Autocomplete-----
+
+Ctrl + n - autocomplete a word(should be present in the current buffer)
+Ctrl + x && Ctrl + l - autocomplete a line(should be present in the current buffer)
+
+-----Autocomplete end-----
+
 vip - will select para
 vit - will select tag
 vis - will select sentence
