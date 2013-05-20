@@ -19,6 +19,10 @@ H - move your cursor near the top of the screen
 M - move your cursor to the middle of the screen
 L - move your cursor near the bottom of the screen
 
+
+----Tabs-------
+:tabo will close all the other open tabs except the current one
+
 -----Scrolling
 
 Ctrl + b - move 1 screen up
