@@ -74,5 +74,6 @@ noremap <C-l> <C-w>l
 :nmap <leader>b :CtrlPBuffer<CR>
 :nmap <leader>p :CtrlP<CR>
 :nmap <leader>e :NERDTreeToggle<CR>
+:nmap <Leader>cl :split ~/Sites/vim/commands-list<CR>
 
 set tags=./tags;/
