@@ -70,6 +70,7 @@ nnoremap <right> <nop>
 :nmap <leader>b :CtrlPBuffer<CR>
 :nmap <leader>p :CtrlP<CR>
 :nmap <leader>e :NERDTreeToggle<CR>
-:nmap <Leader>cl :split ~/Sites/vim/commands-list<CR>
+:nmap <leader>cl :split ~/Sites/vim/commands-list<CR>
 
 set tags=./tags;/
+let g:EasyMotion_leader_key = '\'
