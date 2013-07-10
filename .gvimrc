@@ -5,7 +5,7 @@ let mapleader = ","
 " set background=dark
 " solarized setting finishes here.
 syntax on
-colorscheme tutticolori
+colorscheme molokai
 set rtp+='~/.vim/plugin'
 set tabstop=4
 set shiftwidth=4
@@ -57,10 +57,6 @@ nnoremap <left> <nop>
 nnoremap <right> <nop>
 :nmap j gj
 :nmap k gk
-noremap <C-h> <C-w>h
-noremap <C-j> <C-w>j
-noremap <C-k> <C-w>k
-noremap <C-l> <C-w>l
 :nmap <C-n> :bnext<CR>
 :nmap <C-p> :bprev<CR>
 :let g:ctrlp_map = '<Leader>t'
