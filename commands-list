@@ -100,6 +100,12 @@ qa - start recording your keystrokes in register 'a'
 q - will stop the recording.
 @a - will repeat the keystrokes recorded in the macro
 
+Run macro across multiple lines
+--------------------------------
+
+In Normal Mode:  <num of lines>@<macro name>
+In Command Mode: :<num of lines> norm @<macro name>
+
 "ayy - Read current line into register 'a'
 "Ayy - Append the current line to register 'a' (Using capitals for register will no over write but append to the regsiter)
 "bP - Paste contents of register 'b' above current line
