@@ -136,3 +136,5 @@ q: - opens a new split window with the last run vim column commands
 
 /Ctrl - r + 0: search for the yanked text
 
+<Ctrl-a> if your cursor is over a number it increments that number
+<Ctrl-x> if your cursor is over a number it decrements that number
