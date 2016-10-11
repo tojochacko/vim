@@ -1,22 +1,17 @@
 let mapleader = ","
 " this setting is for solarized
-"let g:solarized_contrast="low"    "default value is normal
-"let g:solarized_visibility="high"    "default value is normal
-" set background=dark
+let g:solarized_contrast="low"    "default value is normal
+let g:solarized_visibility="high"    "default value is normal
+set background=dark
 " solarized setting finishes here.
 syntax on
-colorscheme molokai
-set rtp+='~/.vim/plugin'
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
+colorscheme molokai 
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set autoindent
+set smartindent
 set foldmethod=indent
 set foldlevel=99
-filetype indent plugin on
-
 
 set nocompatible
 set encoding=utf-8
@@ -26,13 +21,12 @@ set showcmd
 set hidden
 set wildmenu
 set wildmode=list:longest
-"set visualbell
 set cursorline
 set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-"set relativenumber
+set relativenumber
 set number
 set modelines=0
 set ignorecase
